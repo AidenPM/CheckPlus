@@ -1,0 +1,7 @@
+name: CheckPlus
+author: pju6791
+version: 3.0.0
+api: 3.0.0
+main: pju6791\CheckPlus\CheckPlus
+website: https://github.com/Le0onKR
+description: "[PMMP] It Implements Check System"
