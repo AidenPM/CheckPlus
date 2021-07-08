@@ -49,7 +49,7 @@ class CheckPlus extends PluginBase
 
     public function getCheck(Player $player, int $money) :void {
 
-        $check = Item::get(ItemIds::PAPER, 0, 10);
+        $check = Item::get(ItemIds::PAPER, 10, 1);
         $KoreaWon = EconomyAPI::getInstance()->koreanWonFormat($money);
         $check->setCustomName("§r§a[ §f수표 §a]");
         $check->setLore([
